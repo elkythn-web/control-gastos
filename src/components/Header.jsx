@@ -1,7 +1,11 @@
+import NuevoPresupuesto from "./NuevoPresupuesto"
 
 const Header = () => {
   return (
-    <h1>Planificador de Gastos</h1>
+    <header>
+        <h1>Planificador de Gastos</h1>
+        <NuevoPresupuesto />
+    </header>
   )
 }
 
